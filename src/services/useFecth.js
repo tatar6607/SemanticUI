@@ -16,9 +16,9 @@ function useFecth(url) {
   }, [url]);
 
   const sil = (idx) => {
-    setData(data.filter((user) => user.id !== idx));
+    setData(data.filter((v, i) => i !== idx));
     // console.log("===================");
-    // console.log(idx);
+    console.log(idx);
     // console.log(data.length);
   };
 

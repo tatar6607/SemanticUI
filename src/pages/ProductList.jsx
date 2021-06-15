@@ -17,7 +17,7 @@ const ProductList = () => {
             <Table.HeaderCell>Avatar</Table.HeaderCell>
             <Table.HeaderCell>Username</Table.HeaderCell>
             <Table.HeaderCell>Url</Table.HeaderCell>
-            <Table.HeaderCell>Sepete Ekle / Sil</Table.HeaderCell>
+            <Table.HeaderCell>Takip et / Sil</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
