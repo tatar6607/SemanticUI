@@ -15,11 +15,9 @@ function useFecth(url) {
     return () => abortCont.abort();
   }, [url]);
 
+  // sil tusu icin onClick methodu
   const sil = (idx) => {
     setData(data.filter((v, i) => i !== idx));
-    // console.log("===================");
-    console.log(idx);
-    // console.log(data.length);
   };
 
   return { data, sil };
