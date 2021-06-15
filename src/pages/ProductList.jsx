@@ -71,7 +71,7 @@ const SilEkle = (props) => {
   const { onClick } = props;
   return (
     <div>
-      <Button animated="vertical" color="linkedin" style={{ width: "100px" }}>
+      <Button animated="vertical" color="linkedin" style={{ width: "80px" }}>
         <Button.Content hidden>Takip et</Button.Content>
         <Button.Content visible>
           <Icon name="user plus" />
